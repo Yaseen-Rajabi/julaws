@@ -242,7 +242,7 @@ JU                        </div>
                             <i class="fa fa-list fa-5x"></i>
                         </div>
                         <div class="col-xs-8 text-right">
-										<a style="color:#fff" href="View_Law_List.php">
+										<a style="color:#fff" href="View_Laws_List.php">
 
 										<h3> مجموع القوانين</h3>
 										<h2 class="font-bold"> <?php echo $row3; ?></h2>
