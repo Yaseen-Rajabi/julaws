@@ -205,12 +205,12 @@ body {
 
 <div class="w3-content">
 	
-  <img class="mySlides w3-animate-fading" src="img/slider1.png" style="width:1024px; height:500px; !important">
-  <img class="mySlides w3-animate-fading" src="img/slider2.jpg" style="width:1024px; height:500px; !important">
-  <img class="mySlides w3-animate-fading" src="img/slider3.jpg" style="width:1024px; height:500px; !important">
-  <img class="mySlides w3-animate-fading" src="img/slider4.jpg" style="width:1024px; height:500px; !important">
-  <img class="mySlides w3-animate-fading" src="img/slider5.jpg" style="width:1024px; height:500px; !important">
-  <img class="mySlides w3-animate-fading" src="img/slider6.jpg" style="width:1024px; height:500px; !important">
+  <img class="mySlides w3-animate-fading" src="img/slider1.png" style="width:50%; height:500px; !important">
+  <img class="mySlides w3-animate-fading" src="img/slider2.jpg" style="width:50%; height:500px; !important">
+  <img class="mySlides w3-animate-fading" src="img/slider3.jpg" style="width:50%; height:500px; !important">
+  <img class="mySlides w3-animate-fading" src="img/slider4.jpg" style="width:50%; height:500px; !important">
+  <img class="mySlides w3-animate-fading" src="img/slider5.jpg" style="width:50%; height:500px; !important">
+  <img class="mySlides w3-animate-fading" src="img/slider6.jpg" style="width:50%; height:500px; !important">
 <br>
   <button class="btn btn-primary" onclick="plusDivs(-1)">&#10094;</button>
   <button class="btn btn-primary" onclick="plusDivs(1)">&#10095;</button>
