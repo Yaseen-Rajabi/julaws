@@ -45,14 +45,14 @@ $Error = 'نعتذر ... ارجو التحقق من اسم المستخدم وك
 
 <title>الجامعة الأردنية - دائرة الشؤون القانونية - القوانين والأنظمة والتعليمات</title>
     <link href="Administrator/css/bootstrap.min.css" rel="stylesheet">
-	    <link href="Administrator/css/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
-	    <link href="css/plugins/bootstrap-rtl/bootstrap-rtl.min.css" rel="stylesheet">
+	<link href="Administrator/css/plugins/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="css/plugins/bootstrap-rtl/bootstrap-rtl.min.css" rel="stylesheet">
 
     <link href="Administrator/font-awesome/css/font-awesome.css" rel="stylesheet">
 
     <link href="Administrator/css/animate.css" rel="stylesheet">
     <link href="Administrator/css/style.css" rel="stylesheet">
-	        	<link rel="shortcut icon" href="Administrator/img/icon.png"/>
+	    <link rel="shortcut icon" href="Administrator/img/icon.png"/>
 	
 	<style>
 @font-face {
@@ -65,10 +65,6 @@ body {
 }
 
 
-
-
-
-
 </style>
 
 
@@ -77,7 +73,7 @@ body {
 
 </head>
 
-<body class="white-bg" class="" style="background-color:#fff">
+<body class="white-bg" class="" style="background-color:red">
 
     <div class="middle-box text-center loginscreen animated fadeInDown">
         <div>
