@@ -158,6 +158,9 @@ JU                        </div>
                 <li>
                     <span class="m-r-sm text-muted welcome-message">اهلا وسهلا في الجامعة الأردنية - دائرة الشؤون القانونية - القوانين والأنظمة والتعليمات - مدير النظام</span>
                 </li>
+                <li>
+                <span style="text-align:left;"><a href="../index.php">واجهة المستخدم</a></span>
+                </li>
                 <li class="dropdown">
 
                     <ul class="dropdown-menu dropdown-messages">
@@ -191,7 +194,7 @@ JU                        </div>
                                 <div class="ibox float-e-margins">
                                     <div class="ibox-title">
                                         <h5>الجامعة الأردنية - دائرة الشؤون القانونية - القوانين والأنظمة والتعليمات - مدير النظام</h5>
-                                        <span style="margin-right:60%;"><a href="../index.php">واجهة المستخدم</a></span>
+                                        
                                     </div>
 
                                     
