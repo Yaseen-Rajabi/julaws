@@ -18,16 +18,7 @@ if(isset($_POST['Submit']))
 {
 $Category_Name = mysqli_real_escape_string($dbConn,$_POST['Category_Name']);
 
-
-
- 
-
 $insert = mysqli_query($dbConn,"insert into categories (Category_Name) values ('$Category_Name')");
-
-
-
-
-
 
 
 echo "<script language='JavaScript'>
@@ -215,7 +206,7 @@ JU                        </div>
                   
                   
                   
-                     <form method="post" action="Add_New_Category.php" class="form-horizontal" enctype="multipart/form-data">
+                     <form method="post" action="Add_New_Category.php" class="form-horizontal" enctype="multipart/form-data"> //enctype: it allows entire files to be included in the data.
                                 
 								
 								
@@ -224,12 +215,7 @@ JU                        </div>
                                     <div class="col-sm-10"><input value=""  type="text" name="Category_Name" class="form-control" required></div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
-
-
-
-
-							
-                                
+           
                                 <div class="form-group">
                                     <div class="col-sm-4 col-sm-offset-2">
 																		                                        <button class="btn btn-primary" type="submit" name="Submit">اضافة</button>
