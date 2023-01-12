@@ -15,7 +15,7 @@ $Password=mysqli_real_escape_string($dbConn,md5($_POST['Password']));
 
 
 
-if ($Username=='admin' && $Password=='21232f297a57a5a743894a0e4a801fc3'){
+if ($Username=='yaseen' && $Password=='8dc26a51431ad861fd94a780373ab07b'){
 
 
 $A_ID=1;
