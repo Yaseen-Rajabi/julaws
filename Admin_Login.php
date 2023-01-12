@@ -73,7 +73,7 @@ body {
 
 </head>
 
-<body class="white-bg" class="" style="background-color:#ADD8E6">
+<body class="white-bg" class="" style="background-color:#fff">
 
     <div class="middle-box text-center loginscreen animated fadeInDown">
         <div>
