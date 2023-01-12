@@ -193,9 +193,9 @@ JU                        </div>
                                         <h5>الجامعة الأردنية - دائرة الشؤون القانونية - القوانين والأنظمة والتعليمات - مدير النظام</h5>
 
                                     </div>
-                                    <li>
-                                        <span class="m-r-sm text-muted welcome-message"><a href="../index.php">واجهة المستخدم</a></span>
-                                    </li>
+                                    
+                                        <span><a href="../index.php">واجهة المستخدم</a></span>
+                                    
                                     <div class="ibox-content">
 
                                         <div>
