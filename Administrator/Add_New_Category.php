@@ -206,7 +206,7 @@ JU                        </div>
                   
                   
                   
-                     <form method="post" action="Add_New_Category.php" class="form-horizontal" enctype="multipart/form-data"> //enctype: it allows entire files to be included in the data.
+                     <form method="post" action="Add_New_Category.php" class="form-horizontal" enctype="multipart/form-data"> <!-- enctype: it allows entire files to be included in the data. -->
                                 
 								
 								
