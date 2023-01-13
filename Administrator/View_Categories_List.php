@@ -203,37 +203,23 @@ JU                        </div>
                     </thead>
                     <tbody>
                     <?php
-					$sql1 = mysqli_query($dbConn,"select * from categories order by ID DESC");
-					while ($row1 = mysqli_fetch_array($sql1)){
+					    $sql1 = mysqli_query($dbConn,"select * from categories order by ID DESC");
+					    while ($row1 = mysqli_fetch_array($sql1)){
 						
-						$C_ID = $row1['ID'];
-						$Category_Name = $row1['Category_Name'];
-						
-				
-
-
-
-					?>
-                    <tr class="grade">
-
-                          <td><?php echo $Category_Name; ?></td>
-                         
-                     
- <td><center>
- 
-
- <a href="Edit_Category.php?C_ID=<?php echo $C_ID; ?>" style="width:52px" class="btn btn-primary btn-sm" role="button">تعديل</a>
- <br>
- <a href="JavaScript:if(confirm('هل انت متأكد من حذف التصنيف؟')==true)
+						    $C_ID = $row1['ID'];
+						    $Category_Name = $row1['Category_Name'];
+					    ?>
+                        <tr class="grade">
+                            <td><?php echo $Category_Name; ?></td>                 
+                            <td>
+                            <center>
+                                <a href="Edit_Category.php?C_ID=<?php echo $C_ID; ?>" style="width:52px" class="btn btn-primary btn-sm" role="button">تعديل</a>
+                                <br>
+                                <a href="JavaScript:if(confirm('هل انت متأكد من حذف التصنيف؟')==true)
 {location.replace('Delete_Category.php?C_ID=<?php echo $C_ID; ?>')}" class="btn btn-primary btn-sm" role="button">حذف</a>
-
-
- 
- 
- </center></td>                     
-                                       
- </tr>
-                    
+                            </center>
+                            </td>                                                           
+                        </tr>
                     <?php
 					}
 					?>
@@ -382,3 +368,4 @@ JU                        </div>
     </script>
 </body>
 </html>
+

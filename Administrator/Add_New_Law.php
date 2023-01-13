@@ -131,10 +131,7 @@ body {
                     </li>
 					
 				
-				
-					
-					
-					
+
 					
                        <li >
                         <a href="#"><i class="fa fa-list"></i> <span class="nav-label">التصنيفات</span><span class="fa arrow"></span></a>
@@ -227,20 +224,13 @@ body {
                         </div>
                     </div>
                    
-                        
-                        
-                        
+
                         
                           <div class="ibox-content">
 
                   
-                  
-                  
-                  
                      <form method="post" action="Add_New_Law.php" class="form-horizontal" enctype="multipart/form-data">
                                 
-								
-
 
 
  <div class="form-group"><label class="col-sm-2 control-label">اسم التصنيف *</label>
@@ -299,17 +289,13 @@ echo '</select>';
                                 </div>
                                 <div class="hr-line-dashed"></div>
 								
-								
-
-
+	
 
  <div class="form-group"><label class="col-sm-2 control-label">عنوان المادة *</label>
 
                                     <div class="col-sm-10"><input value=""  type="text" name="Title" class="form-control" required></div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
-
-
 
 
 
@@ -320,16 +306,6 @@ echo '</select>';
                                 <div class="hr-line-dashed"></div>
 
 
-
-
-
-
-
-
-
-
-
-							
                                 
                                 <div class="form-group">
                                     <div class="col-sm-4 col-sm-offset-2">

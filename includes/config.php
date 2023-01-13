@@ -5,8 +5,8 @@
 	$dbPass = 'dcd38a91';
 	$dbName = 'heroku_f16a9c545956ab9';
 
-$dbConn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName) or die ('MySQL connect failed. ' . mysqli_error());
-mysqli_select_db($dbConn,$dbName) or die('Cannot select database. ' . mysqli_error());
+$dbConn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName) or die ('MySQL connect failed. ' . $mysqli_error());
+mysqli_select_db($dbConn,$dbName) or die('Cannot select database. ' . $mysqli_error());
 
 mysqli_set_charset($dbConn,'utf8'); 
 
